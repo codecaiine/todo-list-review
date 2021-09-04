@@ -3,7 +3,7 @@ import { setLocalStorage } from './setLocalStorage.js';
 import getTasksFromLocalStorage from './getTodos.js';
 // eslint-disable-next-line import/no-cycle
 import setIndex from './index.js';
-// Remove Completed Tasks
+
 const removeCompletedTasks = () => {
   let tasks = getTasksFromLocalStorage();
 

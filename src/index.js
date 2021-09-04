@@ -14,8 +14,6 @@ function clearInput() {
   input.value = '';
 }
 
-// Add Task
-
 const addTodoTask = (e) => {
   const tasks = getTasksFromLocalStorage();
   e.preventDefault();
